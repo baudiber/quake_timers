@@ -67,7 +67,7 @@ int		main(void)
 		std::cout << minute << ":";
 		if (seconds < 10)
 			std::cout << "0";
-	   	std::cout << seconds << " when should you be back ?" << std::endl;
+	   	std::cout << seconds << " when is the next spawn?" << std::endl;
 		std::cin >> answer;
 		if (answer == "quit")
 			break;
@@ -81,7 +81,7 @@ int		main(void)
 		   	std::cout << result <<"\n\033[0m";
 		}
 		else
-			std::cout << "\033[32mGOOD \033[0m";
+			std::cout << "\033[32mCORRECT \033[0m\n";
 		std::cout << std::endl;
 	}
 	return (0);
